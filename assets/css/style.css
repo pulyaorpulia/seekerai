@@ -434,10 +434,33 @@ p.blog-text{
 .services-section .services-header {
   margin-bottom: 50px;
   font-size: 25px;
+  text-align: center; /* Yozuvlarni markazlashtiradi */
+  font-family: 'Arial', sans-serif; /* Fontni o'zgartiradi, ko'proq zamonaviy ko'rinishga keltiradi */
+  color: #333; /* Matn rangi */
 }
+
 .services-section .services-header .services-header-title {
   margin-bottom: 15px;
+  font-size: 30px; /* Kattaroq sarlavha uchun */
+  font-weight: 600; /* Sarlavhani qalinroq qilish */
+  color: #0073e6; /* Sarlavha rangini o'zgartiradi */
+  text-transform: uppercase; /* Sarlavhani katta harflarda ko'rsatadi */
+  letter-spacing: 1px; /* Harflar orasiga bo'shliq qo'shadi */
 }
+
+.services-section .services-header .services-header-body {
+  font-size: 18px; /* Oddiy matn o'lchami */
+  color: #555; /* Matn rangini yumshatadi */
+  font-style: italic; /* Italic (kursiv) qilish */
+}
+
+.services-section .services-header .services-header-body em {
+  color: #ff6600; /* `em` tegidagi matn uchun alohida rang */
+  text-decoration: none; /* Chizish olib tashlanadi */
+  font-style: normal; /* Italicni olib tashlaydi, agar kerak bo'lsa */
+  font-weight: bold; /* Qalinroq qilish */
+}
+
 .services-section .services-row-tail {
   margin-top: 50px;
 }
